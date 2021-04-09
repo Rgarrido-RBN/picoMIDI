@@ -15,7 +15,6 @@ add_executable(picoMIDI
     src/main.c
     src/gpioPico.cpp
     src/gpioDeclaration.c
-    inc/main.h
     inc/gpioPico.h
     inc/gpioDeclaration.h
 )
