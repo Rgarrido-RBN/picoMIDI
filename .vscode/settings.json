@@ -1,0 +1,10 @@
+{
+    "cmake.configureSettings": {
+         "PICO_SDK_PATH": "home/ruben/dev/pico-sdk" // <-- Set this if you've not set ${env:PICO_SDK_PATH}
+    },
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+    "files.associations": {
+        "*.ino": "arduino-output",
+        "uart.h": "c"
+    }
+}
