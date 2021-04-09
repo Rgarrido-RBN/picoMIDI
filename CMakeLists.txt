@@ -9,8 +9,15 @@ project(picoMIDI)
 
 pico_sdk_init()
 
+include_directories(inc)
+
 add_executable(picoMIDI
     src/main.c
+    src/gpioPico.cpp
+    src/gpioDeclaration.c
+    inc/main.h
+    inc/gpioPico.h
+    inc/gpioDeclaration.h
 )
 
 # Add pico_stdlib library which aggregates commonly used features
