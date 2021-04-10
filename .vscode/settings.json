@@ -5,6 +5,8 @@
     "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
     "files.associations": {
         "*.ino": "arduino-output",
-        "uart.h": "c"
+        "uart.h": "c",
+        "gpiodeclaration.h": "c",
+        "gpio.h": "c"
     }
 }
