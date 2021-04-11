@@ -27,7 +27,7 @@ typedef enum
     GPIO_PULLUP = 1,
     GPIO_PULLDOWN = 2,
     GPIO_NOPULL = 3
-}gpioModes;
+}gpioPullMode;
 
 typedef enum 
 {

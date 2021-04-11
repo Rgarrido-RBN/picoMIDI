@@ -12,7 +12,7 @@ pico_sdk_init()
 include_directories(inc)
 
 add_executable(picoMIDI
-    src/main.c
+    src/main.cpp
     src/gpioPico.cpp
     src/gpioDeclaration.c
     inc/gpioPico.h

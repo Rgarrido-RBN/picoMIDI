@@ -1,5 +1,5 @@
 #include "gpioPico.h"
-#include "gpioDeclaration.h"
+
 
 gpioPico::gpioPico(uint pinID, uint function, uint pullMode)
 {

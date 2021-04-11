@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "pico/stdlib.h"
 #include "gpioPico.h"
-#include "gpioDeclaration.h"
+
 
 int main() 
 {

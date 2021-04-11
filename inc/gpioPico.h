@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include "pico/stdlib.h"
+#include "gpioDeclaration.h"
+
 
 class gpioPico {
 
@@ -7,7 +9,7 @@ class gpioPico {
         gpioPico(uint pin, uint function, uint pullMode);
         ~gpioPico();
         bool gpioEnableInterrupt(uint pinID, uint32_t event, bool enableFlag);
-    private:
+    //private:
         // TODO: I have to think about how can I do this, if I want to call this function
         // from main or from the constructor of this class.
         
